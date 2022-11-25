@@ -6,6 +6,10 @@ build-backend = "setuptools.build_meta"
 name = "python-app"
 version = "0.0"
 dependencies = [
+    "starlette~=0.21.0",
+    "Jinja2~=3.1",
+    "mangum~=0.16",
+    "types-setuptools",
 ]
 
 [tool.setuptools.packages.find]
