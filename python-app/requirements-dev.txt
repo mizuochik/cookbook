@@ -3,3 +3,6 @@ pytest
 pytest-asyncio
 mypy
 build
+black
+ipython
+uvicorn
