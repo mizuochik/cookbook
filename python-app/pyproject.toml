@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-app"
+version = "0.0"
+dependencies = [
+]
+
+[tool.setuptools.packages.find]
+include = ["python_app*"]
+
+[tool.setuptools.package-data]
+python_app = ["py.typed"]
+
+[project.scripts]
+python-app = "python_app.adapters.cli:main"
